@@ -1,0 +1,26 @@
+{
+  "name": "grid-hack",
+  "version": "1.0.0",
+  "description": "A health emergency service response",
+  "main": "server.js",
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "africastalking": "^0.4.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.13",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.3.0",
+    "twilio": "^3.24.0"
+  }
+}
